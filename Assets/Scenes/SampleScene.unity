@@ -413,8 +413,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 043445b25981eb64fa872f6d88480d62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: 2
-  knockTime: 0.3
+  thrust: 3
+  knockTime: 0.4
 --- !u!1 &373198162
 GameObject:
   m_ObjectHideFlags: 0
@@ -474,7 +474,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.25, y: 1.3125}
+    oldSize: {x: 1.3125, y: 1.3125}
     newSize: {x: 2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -608,7 +608,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.25, y: 1.3125}
+    oldSize: {x: 1.3125, y: 1.3125}
     newSize: {x: 2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -819,8 +819,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 043445b25981eb64fa872f6d88480d62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: 2
-  knockTime: 0.3
+  thrust: 3
+  knockTime: 0.4
 --- !u!1 &742420740
 GameObject:
   m_ObjectHideFlags: 0
@@ -1791,7 +1791,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.011033773, y: 0.010379314}
+  m_Offset: {x: -0.011033773, y: -0.111908436}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1802,7 +1802,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.59244394, y: 1.4403086}
+  m_Size: {x: 0.59244394, y: 1.1957331}
   m_EdgeRadius: 0
 --- !u!95 &1311654244
 Animator:
@@ -2228,8 +2228,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 043445b25981eb64fa872f6d88480d62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: 2
-  knockTime: 0.3
+  thrust: 3
+  knockTime: 0.4
 --- !u!1 &1678646796
 GameObject:
   m_ObjectHideFlags: 0
@@ -2701,12 +2701,19 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.14329529, y: 1.6127114}
-      - {x: -1.1487055, y: 1.1836131}
-      - {x: -1.1757908, y: 0.23358071}
+    - - {x: 1.2196364, y: 0.51937056}
+      - {x: 1.2609572, y: 0.8682146}
+      - {x: 0.8201456, y: 1.1892133}
+      - {x: 0.12964582, y: 1.5576291}
+      - {x: -0.38773155, y: 1.4770226}
+      - {x: -0.64173937, y: 1.3727903}
+      - {x: -0.95770407, y: 1.2412333}
+      - {x: -1.2248416, y: 0.8306186}
+      - {x: -1.2242413, y: 0.20589459}
       - {x: -0.13558197, y: 1.1605458}
       - {x: 0.5630795, y: -0.05300975}
-      - {x: 1.4797668, y: 0.7339625}
+      - {x: 0.8770056, y: 0.18326569}
+      - {x: 1.169457, y: 0.3509068}
 --- !u!114 &2065827848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2731,8 +2738,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 043445b25981eb64fa872f6d88480d62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: 2
-  knockTime: 0.3
+  thrust: 3
+  knockTime: 0.4
 --- !u!1001 &167862198568610715
 PrefabInstance:
   m_ObjectHideFlags: 0
