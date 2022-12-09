@@ -6,11 +6,11 @@ public class RoomMovement : MonoBehaviour {
     
     public Vector2 cameraChange;
     public Vector3 playerChange;
-    private CameraMovemant camera;
+    private CameraMovemant cameraPrincipal;
     
     // Start is called before the first frame update
     void Start() {
-        camera = Camera.main.GetComponent<CameraMovemant>();
+        cameraPrincipal = Camera.main.GetComponent<CameraMovemant>();
 
     }
 
@@ -21,8 +21,8 @@ public class RoomMovement : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D other){
         if (other.CompareTag("Player")){
-            camera.minPosition += cameraChange;
-            camera.maxPosition += cameraChange;
+            cameraPrincipal.minPosition += cameraChange;
+            cameraPrincipal.maxPosition += cameraChange;
             other.transform.position += playerChange;
         }
     }

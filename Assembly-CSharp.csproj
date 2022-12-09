@@ -53,10 +53,13 @@
      <Compile Include="Assets\Scripts\KnockBackFeedBack.cs" />
      <Compile Include="Assets\Scripts\pot.cs" />
      <Compile Include="Assets\Scripts\Sign.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObjects\FloatValue.cs" />
      <Compile Include="Assets\Scripts\PlayerHit.cs" />
      <Compile Include="Assets\Art\laser\laser_projetil.cs" />
      <Compile Include="Assets\Scripts\CameraMovemant.cs" />
+     <Compile Include="Assets\Scripts\SignalListener.cs" />
      <Compile Include="Assets\Scripts\Knockback.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObjects\Signal.cs" />
      <Compile Include="Assets\Scripts\log.cs" />
      <Compile Include="Assets\Scripts\RoomMovement.cs" />
      <None Include="Assets\Art\personagem\@Old Top Down No Aseprite\Sword Attack Animation\50x50.txt" />

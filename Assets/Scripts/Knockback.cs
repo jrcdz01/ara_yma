@@ -6,6 +6,7 @@ public class Knockback : MonoBehaviour
 {
     public float thrust; // representa a força que o personagem será empurrado
     public float knockTime;
+    public float damage;
     private void OnTriggerEnter2D(Collider2D other){
         if( other.gameObject.CompareTag("enemy") || other.gameObject.CompareTag("Player")){
            
@@ -18,7 +19,7 @@ public class Knockback : MonoBehaviour
 
                 if(other.gameObject.CompareTag("enemy")){
                     hit.GetComponent<Enemy>().currentState = EnemyState.stagger;
-                    other.GetComponent<Enemy>().Knock(hit, knockTime);
+                    other.GetComponent<Enemy>().Knock(hit, knockTime, damage);
                 }
                 
                 if(other.gameObject.CompareTag("Player")){
