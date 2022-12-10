@@ -18,6 +18,8 @@ public class PlayerMovement : MonoBehaviour
 	private Rigidbody2D myRigidbody;
     private Vector3 change;
     private  Vector3 Dashchange;
+    public FloatValue currentHealth;
+    public Signal playerHealthSignal;
 
 
     private Animator animator;
@@ -109,8 +111,12 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    public void Knock( float knockTime){
-        StartCoroutine(KnockCo(knockTime));
+    public void Knock( float knockTime, float damage){
+        currentHealth.initialValue -= damage;
+        if (currentHealth.initialValue > 0){
+            playerHealthSignal.Raise();
+            StartCoroutine(KnockCo(knockTime));
+        } 
     }
 
      private IEnumerator KnockCo(float knockTime){

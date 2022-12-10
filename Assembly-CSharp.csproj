@@ -49,8 +49,8 @@
   <ItemGroup>
      <Compile Include="Assets\Art\laser\caixa_laser.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\HearthManager.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
-     <Compile Include="Assets\Scripts\KnockBackFeedBack.cs" />
      <Compile Include="Assets\Scripts\pot.cs" />
      <Compile Include="Assets\Scripts\Sign.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\FloatValue.cs" />
