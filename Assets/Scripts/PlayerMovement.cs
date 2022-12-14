@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
     private  Vector3 Dashchange;
     public FloatValue currentHealth;
     public Signal playerHealthSignal;
-
+    public VectorValue startingPosition;
 
     private Animator animator;
     // Start is called before the first frame update
@@ -31,6 +31,8 @@ public class PlayerMovement : MonoBehaviour
 
         animator.SetFloat("moveX", 0);
         animator.SetFloat("moveY", -1);
+
+        transform.position = startingPosition.initialValue;
     }
 
     // Update is called once per frame

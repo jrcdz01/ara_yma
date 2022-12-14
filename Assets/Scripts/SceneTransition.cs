@@ -9,11 +9,12 @@ public class SceneTransition : MonoBehaviour
     public Vector2 playerPosition;
     public VectorValue playerStorage;
 
-    public void OntriggerEnter2d(Collider2D other){
+    public void OnTriggerEnter2D(Collider2D other){
         if(other.CompareTag("Player") && !other.isTrigger){
-
+            // Debug.Log("Jogador entrou na área de colisao");
             playerStorage.initialValue = playerPosition;
             SceneManager.LoadScene(SceneToLoad);
+
             
         }
     }
