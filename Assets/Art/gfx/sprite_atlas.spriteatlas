@@ -362,6 +362,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 09ae80916cbc77940a4f7bdd34327600, type: 3}
   - {fileID: 21300000, guid: 6ceeae91385a610488838cf7b6d0ab2d, type: 3}
   - {fileID: 21300000, guid: 0b87f4c146baa1f4e8d631958d6d2f23, type: 3}
+  - {fileID: 21300000, guid: f29aecc1d26785142842f8fca06d9c27, type: 3}
   - {fileID: 21300000, guid: 17b150d1f9f3d294e983cd69a75570d0, type: 3}
   - {fileID: -790699523677361007, guid: 8f8647d1cc010884487b52b612afba25, type: 3}
   - {fileID: 8470420716495695676, guid: 8f8647d1cc010884487b52b612afba25, type: 3}
@@ -451,6 +452,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: cdd149524da1d8242af25e832603a772, type: 3}
   - {fileID: 21300000, guid: 685b72621f6d64f49a8388af0c4ee680, type: 3}
   - {fileID: 21300000, guid: 929eb56278dd0834f8cb2bbd6dff097c, type: 3}
+  - {fileID: 21300000, guid: f78028829c9fffb4d80df9b95eaecaa3, type: 3}
   - {fileID: 21300000, guid: 06004f92e051b0d49a4031c4fb0490eb, type: 3}
   - {fileID: 21300000, guid: 659233b2e405854448ac417047936da2, type: 3}
   - {fileID: -2759137661950804259, guid: 238376c258131494ebd154d7ac8bc0d3, type: 3}
@@ -1691,6 +1693,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: d778b9780c7dbc841ba76dd49c38dd7a, type: 3}
   - {fileID: 21300000, guid: efa23098e592fe34ebb842bd59ef8ff9, type: 3}
   - {fileID: 21300000, guid: 2550fb98bc2cdd8499f4def9e98db2bd, type: 3}
+  - {fileID: 21300000, guid: 42d6a3b8a505b864bb41ad1651114a4f, type: 3}
   - {fileID: 21300000, guid: 1d3338b848b989a4fb7616fd75968af4, type: 3}
   - {fileID: 21300000, guid: 712e62d8f0c5296498584542423ee6e1, type: 3}
   - {fileID: 21300000, guid: c7f59ad8b428df44ea005d2b5d38c2ef, type: 3}
@@ -1859,6 +1862,7 @@ SpriteAtlas:
   - {fileID: 1107736971085435061, guid: 83efd89a56e19f54db48739c5d0d87c0, type: 3}
   - {fileID: -377563455374678323, guid: 83efd89a56e19f54db48739c5d0d87c0, type: 3}
   - {fileID: 21300000, guid: a848299ad0a3e4b49b52a9ea59768229, type: 3}
+  - {fileID: 21300000, guid: c772b7ca31c5e6f4593651ce2821b9bd, type: 3}
   - {fileID: 21300000, guid: 0198ceea14345114a89221b93cba39e0, type: 3}
   - {fileID: 21300000, guid: 99c6530bb6ca9ee46a33c5e7b95ff39c, type: 3}
   - {fileID: 2416434504916517810, guid: 1a97522bb0194bc4bbb36c95bc793eca, type: 3}
@@ -3738,6 +3742,7 @@ SpriteAtlas:
   - Bow Attack
   - Character Stand Idle No Shadow
   - Stab Side Sheet
+  - mapa
   - Bow Charge
   - character_14
   - character_15
@@ -3827,6 +3832,7 @@ SpriteAtlas:
   - Side Run No Shadow
   - Side Bow Sprite
   - Character Stand Idle
+  - blk-neo-8x
   - Piercing Stab
   - Stab Dash
   - IdleLeft_4
@@ -5067,6 +5073,7 @@ SpriteAtlas:
   - Longe Range Stab
   - Idle
   - Character Portrait - Uirapuru
+  - predios
   - Dash o Clone
   - Back Hit
   - Attack 3
@@ -5235,6 +5242,7 @@ SpriteAtlas:
   - objects_109
   - objects_108
   - Crying 2
+  - mapa-2
   - Hit
   - Side Hit
   - Walk_5
