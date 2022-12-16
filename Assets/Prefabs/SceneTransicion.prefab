@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5501891752978554550}
   - component: {fileID: 5310772440679276579}
+  - component: {fileID: 2209518947236935322}
   m_Layer: 0
   m_Name: SceneTransicion
   m_TagString: Untagged
@@ -57,3 +58,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.4493008, y: 3.401434}
   m_EdgeRadius: 0
+--- !u!114 &2209518947236935322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6994097175334457970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce85187f550006c4a8e9d5fdcdcfaba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneToLoad: 
+  playerNextPosition: {x: 0, y: 0}
+  playerStorage: {fileID: 0}
+  fadeInPanel: {fileID: 7302397440417451025, guid: a66ec07c24717ce4fbfa1fcf0e3f6b8d, type: 3}
+  fadeOutPanel: {fileID: 9197851000526493610, guid: 22b6136bbe9fde74b839db6110e07d67, type: 3}
+  fadeWait: 0.33

@@ -195,6 +195,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 871083616995206109, guid: c0d6a6a593c2bbf489638aa7e441a8ff, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3335728245625765979, guid: c0d6a6a593c2bbf489638aa7e441a8ff, type: 3}
       propertyPath: m_Name
       value: jogador
@@ -467,6 +471,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2209518947236935322, guid: 7294571baaaf9db459e8c3b3a9c9e0e5, type: 3}
+      propertyPath: SceneToLoad
+      value: SampleScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209518947236935322, guid: 7294571baaaf9db459e8c3b3a9c9e0e5, type: 3}
+      propertyPath: playerStorage
+      value: 
+      objectReference: {fileID: 11400000, guid: 109b7c0c6cd386b4a95e01eafe9c54f9, type: 2}
+    - target: {fileID: 2209518947236935322, guid: 7294571baaaf9db459e8c3b3a9c9e0e5, type: 3}
+      propertyPath: playerNextPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209518947236935322, guid: 7294571baaaf9db459e8c3b3a9c9e0e5, type: 3}
+      propertyPath: playerNextPosition.y
+      value: -7
+      objectReference: {fileID: 0}
     - target: {fileID: 5310772440679276579, guid: 7294571baaaf9db459e8c3b3a9c9e0e5, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -516,28 +536,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6994097175334457970, guid: 7294571baaaf9db459e8c3b3a9c9e0e5, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 6994097175334457970, guid: 7294571baaaf9db459e8c3b3a9c9e0e5, type: 3}
       propertyPath: m_Name
       value: SceneTransicion
       objectReference: {fileID: 0}
+    - target: {fileID: 6994097175334457970, guid: 7294571baaaf9db459e8c3b3a9c9e0e5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7294571baaaf9db459e8c3b3a9c9e0e5, type: 3}
---- !u!1 &3033407536232791931 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6994097175334457970, guid: 7294571baaaf9db459e8c3b3a9c9e0e5, type: 3}
-  m_PrefabInstance: {fileID: 3033407536232791930}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &3033407536232791932
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3033407536232791931}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce85187f550006c4a8e9d5fdcdcfaba6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SceneToLoad: SampleScene
-  playerPosition: {x: 1.03, y: 12}
-  playerStorage: {fileID: 11400000, guid: 109b7c0c6cd386b4a95e01eafe9c54f9, type: 2}

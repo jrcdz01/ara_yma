@@ -3,7 +3,9 @@ guid: 7b291ea86ce76a04183d7777374d7a2d
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - projetil: {fileID: 2339272469761946130, guid: fb41808ce74f27e44abdc3455fa187c0, type: 3}
+  - pivot: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
