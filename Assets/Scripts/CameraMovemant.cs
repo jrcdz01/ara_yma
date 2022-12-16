@@ -10,7 +10,7 @@ public class CameraMovemant : MonoBehaviour
     public Vector2 minPosition;
     // Start is called before the first frame update
     void Start(){
-        
+        transform.position = new Vector3(target.position.x, target.position.y, target.position.z-1);
     }
 
     

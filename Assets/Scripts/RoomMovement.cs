@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class RoomMovement : MonoBehaviour {
     
-    public Vector2 cameraChange;
+    public Vector2 cameraMinChange;
+    public Vector2 cameraMaxChange;
     public Vector3 playerChange;
     private CameraMovemant cameraPrincipal;
     
@@ -21,8 +22,8 @@ public class RoomMovement : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D other){
         if (other.CompareTag("Player") && !other.isTrigger){
-            cameraPrincipal.minPosition += cameraChange;
-            cameraPrincipal.maxPosition += cameraChange;
+            cameraPrincipal.minPosition = cameraMinChange;
+            cameraPrincipal.maxPosition = cameraMaxChange;
             other.transform.position += playerChange;
         }
     }
