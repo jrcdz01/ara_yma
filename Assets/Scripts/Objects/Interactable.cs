@@ -1,16 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
+public class Interactable : MonoBehaviour {
 
-public class Sign : MonoBehaviour
-{
     public Signal contextOn;
     public Signal contextOff;
-    public GameObject dialogBox;
-    public Text dialogText;
-    public string dialog;
     public bool playerInRange;
     // Start is called before the first frame update
     void Start()
@@ -19,15 +14,9 @@ public class Sign : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update(){
-        if(Input.GetKeyDown(KeyCode.J) && playerInRange){
-            if (dialogBox.activeInHierarchy){
-                dialogBox.SetActive(false);
-            }else{
-                dialogBox.SetActive(true);
-                dialogText.text = dialog;
-            }
-        }
+    void Update()
+    {
+        
     }
 
     private void OnTriggerEnter2D(Collider2D other){
@@ -41,10 +30,8 @@ public class Sign : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other){
       if (other.CompareTag("Player")) {
-        playerInRange = false;
         contextOff.Raise();
-        dialogBox.SetActive(false);
+        playerInRange = false;
       } 
     }
-    
 }
