@@ -28,6 +28,7 @@ SpriteAtlas:
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 1
+      enableAlphaDilation: 0
     secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
@@ -445,7 +446,11 @@ SpriteAtlas:
   - {fileID: 21300000, guid: ed491ed1f273bef40b68720442d82b50, type: 3}
   - {fileID: 21300000, guid: 461cfae1fb89be44ea9fb04cc6a1c67e, type: 3}
   - {fileID: 21300000, guid: 4e88511271417b9429651806e4362fb1, type: 3}
-  - {fileID: 21300000, guid: 14c6b53291c5af949a247bd3bd0c4647, type: 3}
+  - {fileID: -8279211321572434193, guid: 14c6b53291c5af949a247bd3bd0c4647, type: 3}
+  - {fileID: 4889769934104585825, guid: 14c6b53291c5af949a247bd3bd0c4647, type: 3}
+  - {fileID: 5762951592812835690, guid: 14c6b53291c5af949a247bd3bd0c4647, type: 3}
+  - {fileID: -7960592328283430648, guid: 14c6b53291c5af949a247bd3bd0c4647, type: 3}
+  - {fileID: -3705349888655724111, guid: 14c6b53291c5af949a247bd3bd0c4647, type: 3}
   - {fileID: 21300000, guid: 996559323de14da469d068068d99f555, type: 3}
   - {fileID: 21300000, guid: 90652942c951fcb4caba813f512b7231, type: 3}
   - {fileID: 21300000, guid: 2268e352a29693446b48ed62019ee36d, type: 3}
@@ -3825,7 +3830,11 @@ SpriteAtlas:
   - Stab Dash No Clone
   - Attack 1
   - Bow Charge
-  - Talking Ver1
+  - Talking Ver1_0
+  - Talking Ver1_1
+  - Talking Ver1_2
+  - Talking Ver1_3
+  - Talking Ver1_4
   - Side Run
   - Side Run
   - Dash

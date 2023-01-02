@@ -42,7 +42,7 @@ TextureImporter:
       213: -2680105055392148857
     second: Piercing Stab_14
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,6 +63,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -101,6 +102,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -128,6 +130,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -424,6 +438,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Piercing Stab_14: -2680105055392148857
+      Piercing Stab_8: -6133503597045744917
+      Piercing Stab_9: -257325549150584647
+      Piercing Stab_0: 2753191450646341526
+      Piercing Stab_11: -3929075884236808840
+      Piercing Stab_2: 6499981841701751331
+      Piercing Stab_4: -4060029432732275171
+      Piercing Stab_7: -3866769224100012152
+      Piercing Stab_13: 7952857879655100402
+      Piercing Stab_5: 1524386450571182954
+      Piercing Stab_1: -7412088176191436564
+      Piercing Stab_12: 2779672711598146022
+      Piercing Stab_6: 575132944783919705
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
