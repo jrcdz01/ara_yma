@@ -3,17 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu]
-public class Item : ScripatableObject
+public class Item : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Sprite itemSprite;
+    public string itemDescription;
+    public bool isKey;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

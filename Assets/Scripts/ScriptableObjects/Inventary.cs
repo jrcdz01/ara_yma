@@ -5,15 +5,9 @@ using UnityEngine;
 [CreateAssetMenu]
 public class Inventary : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Item currentItem;
+    public List<Item> items = new List<Item>();
+    public int numberOfKeys;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }
