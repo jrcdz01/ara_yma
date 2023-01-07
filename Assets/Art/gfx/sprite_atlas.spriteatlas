@@ -63,6 +63,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 74d324e065f9ebd4487ee13b6eded1dc, type: 3}
   - {fileID: 21300000, guid: 2a5ba3f0cd211004b8db08cc33e30226, type: 3}
   - {fileID: 21300000, guid: 93c17af092cdc1e40acef111cee976de, type: 3}
+  - {fileID: 21300000, guid: c57ecaf0f147fdf4081d307e004b866f, type: 3}
   - {fileID: 21300000, guid: 701d350110b451f4dba78c1d633d35c0, type: 3}
   - {fileID: 21300000, guid: b7ccb821ddd0a4c489794b64a510f409, type: 3}
   - {fileID: 2416434504916517810, guid: 24ccfb311bee56b459b7b9880d694b69, type: 3}
@@ -3447,6 +3448,7 @@ SpriteAtlas:
   - luz
   - Stab Dash
   - Recover
+  - chave
   - Character Portrait
   - Idle Front Sheet with Shadow
   - Walk_5

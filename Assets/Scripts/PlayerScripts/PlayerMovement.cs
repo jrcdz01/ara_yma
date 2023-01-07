@@ -21,6 +21,8 @@ public class PlayerMovement : MonoBehaviour
     public FloatValue currentHealth;
     public Signal playerHealthSignal;
     public VectorValue startingPosition;
+    public SpriteRenderer receivedItemSprite;
+    public Inventory playerInventory;
 
     private Animator animator;
     // Start is called before the first frame update
@@ -37,6 +39,10 @@ public class PlayerMovement : MonoBehaviour
 
     // Update is called once per frame
     void Update(){
+
+        if(currentState == PlayerState.interact){
+            return;
+        }
         change = Vector3.zero;
 	    change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
@@ -62,7 +68,16 @@ public class PlayerMovement : MonoBehaviour
         yield return null;
         animator.SetBool("atacking", false);
         yield return new WaitForSeconds(.3f);
-        currentState = PlayerState.walk;
+        if(currentState != PlayerState.interact){
+            currentState = PlayerState.walk;
+        }
+    }
+
+    public void RaiseItem(){
+        animator.SetBool("receiveItem", true);
+        currentState = PlayerState.interact;
+        // receivedItemSprite.sprite = playerInventory.currentItem.itemSprite;
+
     }
 
     // private IEnumerator DashCo(){

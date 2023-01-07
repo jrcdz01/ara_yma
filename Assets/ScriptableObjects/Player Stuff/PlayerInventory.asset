@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28800de9d1530d6488836fdb8d8a54ed, type: 3}
-  m_Name: Small Key
+  m_Script: {fileID: 11500000, guid: a8616430418035a41b3b10006a973b08, type: 3}
+  m_Name: PlayerInventory
   m_EditorClassIdentifier: 
-  itemSprite: {fileID: 21300000, guid: c57ecaf0f147fdf4081d307e004b866f, type: 3}
-  itemDescription: "\xE9 uma pequena chave, existe alguma porta pr\xF3xima?"
-  isKey: 1
+  currentItem: {fileID: 0}
+  items: []
+  numberOfKeys: 0
