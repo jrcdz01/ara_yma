@@ -3457,6 +3457,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 455342621}
+    - target: {fileID: 5608192793573337971, guid: 78f2783e5aed2e740894ef3e07b5ac59, type: 3}
+      propertyPath: enemyName
+      value: Patrol Log
+      objectReference: {fileID: 0}
     - target: {fileID: 5608192793573337977, guid: 78f2783e5aed2e740894ef3e07b5ac59, type: 3}
       propertyPath: m_Name
       value: log patrol
@@ -3505,7 +3509,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5608192793573337983, guid: 78f2783e5aed2e740894ef3e07b5ac59, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5608192793573337971, guid: 78f2783e5aed2e740894ef3e07b5ac59, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 78f2783e5aed2e740894ef3e07b5ac59, type: 3}
 --- !u!1001 &3335728244454097157
 PrefabInstance:
@@ -3661,6 +3670,10 @@ PrefabInstance:
     - target: {fileID: 3335728244871563522, guid: c0d6a6a593c2bbf489638aa7e441a8ff, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[9].y
       value: 0.39146423
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335728245625765978, guid: c0d6a6a593c2bbf489638aa7e441a8ff, type: 3}
+      propertyPath: m_SleepingMode
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3335728245625765979, guid: c0d6a6a593c2bbf489638aa7e441a8ff, type: 3}
       propertyPath: m_Name
@@ -3907,3 +3920,38 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5608192793573337981, guid: 78f2783e5aed2e740894ef3e07b5ac59, type: 3}
   m_PrefabInstance: {fileID: 1866256732838588654}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6066924006930275223 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5608192793573337977, guid: 78f2783e5aed2e740894ef3e07b5ac59, type: 3}
+  m_PrefabInstance: {fileID: 1866256732838588654}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6066924006930275232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6066924006930275223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d4432bc97b6c0a4180412bb7d7db98f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentState: 0
+  maxHealth: {fileID: 11400000, guid: 1f5f37a9fc9c427428c6bc1faecdb53a, type: 2}
+  health: 0
+  enemyName: Patrol Log
+  baseAtack: 1
+  moveSpeed: 3
+  myRigidbody: {fileID: 0}
+  target: {fileID: 0}
+  chaseRadius: 2
+  attackRadius: 2
+  homePosition: {fileID: 0}
+  anim: {fileID: 0}
+  path:
+  - {fileID: 103588264}
+  - {fileID: 778009502}
+  currentPoint: 0
+  currentGoal: {fileID: 0}
+  roundingDistance: 0
