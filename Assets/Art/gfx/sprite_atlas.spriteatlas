@@ -62,6 +62,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: dbeaa6d0c2164b64e8fd9a7c95502192, type: 3}
   - {fileID: 21300000, guid: 74d324e065f9ebd4487ee13b6eded1dc, type: 3}
   - {fileID: 21300000, guid: 2a5ba3f0cd211004b8db08cc33e30226, type: 3}
+  - {fileID: 21300000, guid: 754788f05087b5d4aa66e7768b34e13c, type: 3}
   - {fileID: 21300000, guid: 93c17af092cdc1e40acef111cee976de, type: 3}
   - {fileID: 21300000, guid: c57ecaf0f147fdf4081d307e004b866f, type: 3}
   - {fileID: 21300000, guid: 701d350110b451f4dba78c1d633d35c0, type: 3}
@@ -470,6 +471,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 1a29fce22ab043d4992071752f564d1c, type: 3}
   - {fileID: 21300000, guid: a3c86bf265367ef489402f8283980a1d, type: 3}
   - {fileID: 21300000, guid: 0eee7613c4d2368428e24e33c32d52bd, type: 3}
+  - {fileID: 21300000, guid: e23fc5231e2334e49accc4ea39890756, type: 3}
   - {fileID: 21300000, guid: 0be5f8233cf5bd540bf6e2b7dc5b19df, type: 3}
   - {fileID: 21300000, guid: 7434dc23d28600540a164d29e4cd40d4, type: 3}
   - {fileID: 21300000, guid: 3c9a1733a3eeb9b468a95593daeff206, type: 3}
@@ -3447,6 +3449,7 @@ SpriteAtlas:
   - Wide Area Attack Motion Blur
   - luz
   - Stab Dash
+  - espada
   - Recover
   - chave
   - Character Portrait
@@ -3855,6 +3858,7 @@ SpriteAtlas:
   - Side Portrait Small
   - Dash Side Sprite
   - Bow Attack
+  - portao
   - Sword Attack Side Sprite Guide
   - Crying 1
   - Back Run
