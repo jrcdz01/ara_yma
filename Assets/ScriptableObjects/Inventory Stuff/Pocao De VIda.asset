@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ad63265970c2224ca7851a1f3883f75, type: 3}
-  m_Name: Soldier Sword
+  m_Name: Pocao De VIda
   m_EditorClassIdentifier: 
-  itemName: Soldier Sword
-  itemDescription: A espada do heroi
-  itemImage: {fileID: 21300000, guid: 754788f05087b5d4aa66e7768b34e13c, type: 3}
+  itemName: Pocao de vida
+  itemDescription: Item que recupera vida
+  itemImage: {fileID: -933708202724517508, guid: 83efd89a56e19f54db48739c5d0d87c0, type: 3}
   numberHeld: 1
-  usable: 0
-  unique: 1
+  usable: 1
+  unique: 0
   thisEvent:
     m_PersistentCalls:
       m_Calls: []
