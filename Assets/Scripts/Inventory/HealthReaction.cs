@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class HealthReaction : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public FloatValue playerHealth;
+    public Signal healthSignal;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void Use(int amountToIncrease){
+        playerHealth.RuntimeValue += amountToIncrease;
+        healthSignal.Raise();
     }
 }

@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class MagicReaction : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public FloatValue playerMagic;
+    public Signal magicSignal;
+    
+    public void Use( int amountToIncrease){
+        playerMagic.RuntimeValue += amountToIncrease;
+        magicSignal.Raise();
     }
 }
