@@ -1771,6 +1771,7 @@ SpriteAtlas:
   - {fileID: 3487095783347953447, guid: 83efd89a56e19f54db48739c5d0d87c0, type: 3}
   - {fileID: 901927284399968204, guid: 83efd89a56e19f54db48739c5d0d87c0, type: 3}
   - {fileID: -6469549280988569358, guid: 83efd89a56e19f54db48739c5d0d87c0, type: 3}
+  - {fileID: -1123895370, guid: 83efd89a56e19f54db48739c5d0d87c0, type: 3}
   - {fileID: -5262628193677242302, guid: 83efd89a56e19f54db48739c5d0d87c0, type: 3}
   - {fileID: -1955489751837219279, guid: 83efd89a56e19f54db48739c5d0d87c0, type: 3}
   - {fileID: -9193188169025097682, guid: 83efd89a56e19f54db48739c5d0d87c0, type: 3}
@@ -5158,6 +5159,7 @@ SpriteAtlas:
   - objects_81
   - objects_55
   - objects_65
+  - objects_82
   - objects_54
   - objects_62
   - objects_63

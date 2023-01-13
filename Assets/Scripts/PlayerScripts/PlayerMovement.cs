@@ -23,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
     public VectorValue startingPosition;
     public SpriteRenderer receivedItemSprite;
     public Inventory playerInventory;
+    public GameObject menuDePausa;
 
     private Animator animator;
     // Start is called before the first frame update
@@ -55,6 +56,15 @@ public class PlayerMovement : MonoBehaviour
         else if (currentState == PlayerState.walk || currentState == PlayerState.idle){
             UpdateAnimationMove();    
         }
+
+        // if(Input.GetButtonDown("Submit")){
+        //     menuDePausa = GetComponent<Canvas>();
+        //     if (menuDePausa.activeSelf == true){
+        //         menuDePausa.SetActive(false);
+        //     }else{
+        //         menuDePausa.SetActive(true);
+        //     }
+        // }
 
         // else if (Input.GetButtonDown("dash") && currentState != PlayerState.dash){
         //     StartCoroutine(DashCo());
@@ -144,7 +154,7 @@ public class PlayerMovement : MonoBehaviour
         } 
     }
 
-     private IEnumerator KnockCo(float knockTime){
+    private IEnumerator KnockCo(float knockTime){
         if (myRigidbody != null ){
             yield return new WaitForSeconds(knockTime);
             myRigidbody.velocity = Vector2.zero;

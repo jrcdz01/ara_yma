@@ -176,6 +176,8 @@ MonoBehaviour:
   enemyName: Log
   baseAtack: 1
   moveSpeed: 1.5
+  deathEffect: {fileID: 5701381955932727470, guid: 718bcde07a77cb94cbd55c954ed22baf, type: 3}
+  myRigidbody: {fileID: 0}
   target: {fileID: 0}
   chaseRadius: 5
   attackRadius: 2
@@ -248,4 +250,4 @@ MonoBehaviour:
   - {x: -0.31929767, y: 0.5350685, z: 0}
   m_ShapePathHash: -1842091587
   m_Mesh: {fileID: 0}
-  m_InstanceId: 24592
+  m_InstanceId: 95300
